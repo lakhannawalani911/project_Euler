@@ -1,4 +1,6 @@
+from math import sqrt
 def largestPrimeFactor(number):
+    # number = round(sqrt(number))
     max_prime = 0
     if number ==2 or number == 3:
         return number
@@ -14,10 +16,10 @@ def isprime(num):
     return True
 
 if __name__ == "__main__":
-    print(largestPrimeFactor(2))
-    print(largestPrimeFactor(3))
-    print(largestPrimeFactor(5))
-    print(largestPrimeFactor(7))
-    print(largestPrimeFactor(8))
-    print(largestPrimeFactor(13195))
+    # print(largestPrimeFactor(2))
+    # print(largestPrimeFactor(3))
+    # print(largestPrimeFactor(5))
+    # print(largestPrimeFactor(7))
+    # print(largestPrimeFactor(8))
+    # print(largestPrimeFactor(13195))
     print(largestPrimeFactor(60051475143))
